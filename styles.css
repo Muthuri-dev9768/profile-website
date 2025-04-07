@@ -91,6 +91,7 @@ html{
     font-family: var(--FF);
     background-color: var(--BGCOLOR);
     background-image: var(--BGIMAGE);
+    overflow-x: hidden;
 }
 body{
     background-color: var(--BODY-BGCOLOR);
@@ -101,6 +102,7 @@ body{
     border-left: var(--BORDERS);
     border-right: var(--BORDERS);
     box-shadow: 0 0 10px var(--BORDER-COLOR);
+    overflow-x: hidden;
 }
 
 h1, h2, h3{
