@@ -74,10 +74,8 @@ input, button, textarea{
 
 
 /*||UTILITY CLASSES*/
-.offscreen{
-    position: absolute;
-    left: 10000px;
-}
+
+
 .nowrap{
     white-space: nowrap;
 }
@@ -91,18 +89,18 @@ html{
     font-family: var(--FF);
     background-color: var(--BGCOLOR);
     background-image: var(--BGIMAGE);
-    overflow-x: hidden;
+    
 }
 body{
     background-color: var(--BODY-BGCOLOR);
     color: var(--FONT-COLOR);
-    min-height: 100vh;
-    max-width: 800px;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
     border-left: var(--BORDERS);
     border-right: var(--BORDERS);
     box-shadow: 0 0 10px var(--BORDER-COLOR);
-    overflow-x: hidden;
+    
 }
 
 h1, h2, h3{
